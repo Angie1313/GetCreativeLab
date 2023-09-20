@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+    	Scanner input = new Scanner(System.in);
+    	int number = input.nextInt();
+    	number +=3;
+    	System.out.println(number);   
+    	//prints out the number you gave plus 3 so if you gave it 2 then it will print 5
+    	input.close();
+    	number *=4;
+    	System.out.println(number);   
+    	//prints out the number times 4 so 5*4 is 20
+    	number /= 2;
+    	System.out.println(number); 
+    	//prints out the number divided by 2 so 20/2 is 10
+    	Boolean logic =number < 8 || true;
+    	System.out.println(logic);
+    	//prints out true
+
+} }

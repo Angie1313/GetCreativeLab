@@ -1,0 +1,72 @@
+
+
+import java.util.Scanner;
+public class Creative {
+
+	public static void main(String[] args) {
+		System.out.println("Let's learn math!");
+		System.out.print("Please provide a number: ");
+		Scanner input = new Scanner(System.in);
+    	int number = input.nextInt();
+    	System.out.println("First we will do ADDITION! We will add 3 to the number you provided: ");
+    	number +=3;
+    	//prints out the number you gave plus 3
+    	System.out.println(number);   
+    	System.out.println("Now we will do Multiplication! We will multiple your number by 4: ");
+    	number *=4;
+    	//prints out the number times 4
+    	System.out.println(number);    
+    	System.out.println("Now we will do Divison! We will divide your number by 2: ");
+    	number /= 2;
+    	//prints out the number divided by 2 
+    	System.out.println(number); 
+    	number %= 5;
+    	System.out.println("What remains when you divide by 5: ");
+    	System.out.println(number);
+    	
+    	System.out.println("Let's not forget about decimals!! we can do the same operations to decimal.");
+    	System.out.print("Please provide a decimal:");
+    	Scanner input2 = new Scanner(System.in);
+    	float number2 = input2.nextFloat();
+    	System.out.println("We can add. We will add 3.1 to the number you provided: ");
+    	number2 +=3.1;
+    	//prints out the number you gave plus 3.1
+    	System.out.println(number2); 
+    	System.out.println("We can Divide. We will divide your number by 2: ");
+    	number2 /= 2;
+    	//prints out the number divided by 2 
+    	System.out.println(number2); 
+
+    	System.out.println("Now let's test out computer and see how smart it is!"); 
+    	Boolean answer=null;
+    	answer= 5>2;
+    	//prints if 5 is greater than 2
+    	System.out.println("is 5 bigger than 2? ");
+    	System.out.println(answer);
+    	answer=null;
+    	answer = (6 > 2) && (-1 < 1);
+    	//prints if both operations are true or not
+    	System.out.println("Another test: are these two (6 > 2) and (-1 < 1) true or false? ");
+    	System.out.println(answer);
+    	answer=null;
+    	answer= (10 < 2) || (9 < 2);
+    	//prints out if 10 or 9 is smaller than 2
+    	System.out.println("Another test: is 10 or 9 smaller than 2? ");
+    	System.out.println(answer);
+    	answer=null;
+    	answer = !true;
+    	//prints out the opposite of true which is false
+    	System.out.println("Another test: What is the opposite of true? "); 
+    	System.out.println(answer);
+    	//prints out final message
+    	String finalnote= "Thank you for joining us today";
+    	char exclamation ='!';
+    	System.out.println(finalnote+exclamation);
+    
+    	
+    	
+    	
+    	input.close();
+	}
+
+}
